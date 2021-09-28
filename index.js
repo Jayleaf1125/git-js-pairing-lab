@@ -13,13 +13,8 @@ function multiplesOfThree() {
     }
 }
 
-// Call
-// fiveToOneHundred();
-//multiplesOfThree();
-
-
 function multiplesOfThreeOrFive() {
-    for(i = 0; i <= 100; i++) {
+    for(let i = 0; i <= 100; i++) {
         if(i % 3 === 0) {
          console.log(i);
         }  else if (i % 5 === 0) {
@@ -27,4 +22,16 @@ function multiplesOfThreeOrFive() {
         }
     }
 }
-    multiplesOfThreeOrFive();
+
+function untilNum(number) {
+    for(let i = 0; i <= number; i++) {
+        console.log(i)
+    }
+}
+    
+// Call
+fiveToOneHundred();
+multiplesOfThree();    
+multiplesOfThreeOrFive();
+untilNum(5);
+    
