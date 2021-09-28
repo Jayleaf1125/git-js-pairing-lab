@@ -28,10 +28,24 @@ function untilNum(number) {
         console.log(i)
     }
 }
+
+function multiply(2, 4) {
+    for( let i = 0; i <= )
+    
+    
+    
+ return    
+}
+
+function add(2, 4) {
+    
+}return
+
+
     
 // Call
-fiveToOneHundred();
-multiplesOfThree();    
-multiplesOfThreeOrFive();
+// fiveToOneHundred();
+// multiplesOfThree();    
+// multiplesOfThreeOrFive();
 untilNum(5);
     
