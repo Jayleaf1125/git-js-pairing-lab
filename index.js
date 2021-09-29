@@ -75,10 +75,17 @@ function add(number1, number2) {
     }
 }
 
+function traingleArea(base, height) {
+    const product = base * height;
+    const area = product * (1 / 2);
+    return area;
+}
+
 // Call
 // fiveToOneHundred();
 // multiplesOfThree();    
 // multiplesOfThreeOrFive();
 // untilNum(5);
-console.log(add(6, 6));
-console.log(multiply(3, 7.5));
+// console.log(add(6, 6));
+// console.log(multiply(3, 7.5));
+console.log(traingleArea(6, 8));
