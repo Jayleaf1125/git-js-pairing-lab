@@ -81,6 +81,11 @@ function traingleArea(base, height) {
     return area;
 }
 
+function largest(number1, number2, number3) {
+    const largAvg = Math.max(number1, number2, number3);
+    return largAvg;
+}
+
 // Call
 // fiveToOneHundred();
 // multiplesOfThree();    
@@ -88,4 +93,5 @@ function traingleArea(base, height) {
 // untilNum(5);
 // console.log(add(6, 6));
 // console.log(multiply(3, 7.5));
-console.log(traingleArea(6, 8));
+// console.log(traingleArea(6, 8));
+console.log(largest(30, 22, 17));
