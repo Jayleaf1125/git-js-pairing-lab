@@ -28,10 +28,29 @@ function untilNum(number) {
         console.log(i)
     }
 }
+
+function multiply(number1, number2) {
+    const product = number1 * number2;
+    return product;
+}
+
+
+function add(number1, number2) {
+    if (number1 === number2) {
+        const sumWithtriple = (number1 + number2) * 3;
+        return sumWithtriple;
+    } else {
+        const sum = number1 + number2;
+        return sum;
+    }
+}
     
 // Call
-fiveToOneHundred();
-multiplesOfThree();    
-multiplesOfThreeOrFive();
-untilNum(5);
+// fiveToOneHundred();
+// multiplesOfThree();    
+// multiplesOfThreeOrFive();
+// untilNum(5);
+console.log(multiply(10, -5));
+console.log(add(2, 4));
+
     
