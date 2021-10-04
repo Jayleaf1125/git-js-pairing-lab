@@ -103,13 +103,43 @@ function largest(number1, number2, number3) {
 }
 
 // Call
-fiveToOneHundred();
-multiplesOfThree();    
-multiplesOfThreeOrFive();
-untilNum(5);
-console.log(add(6, 6));
-console.log(multiply(3, 7.5));
-console.log(isNegative(Math.PI));
-console.log(traingleArea(6, 8));
-console.log(betweenTwentyAndFourty(101));
-console.log(largest(30, 22, 17));
+// fiveToOneHundred();
+// multiplesOfThree();    
+// multiplesOfThreeOrFive();
+// untilNum(5);
+// console.log(add(6, 6));
+// console.log(multiply(3, 7.5));
+// console.log(isNegative(Math.PI));
+// console.log(traingleArea(6, 8));
+// console.log(betweenTwentyAndFourty(101));
+// console.log(largest(30, 22, 17));
+
+
+// Bonus
+function printTime() {
+    const Today = new Date();
+    console.log((Today.getHours()) + ":" + (Today.getMinutes()) + ":" + (Today.getSeconds())) 
+}
+
+function isLeapYear() {
+    
+}
+
+function getExtention() {
+    
+}
+
+function absoluteNineteen() {
+    
+}
+
+function switchLetters() {
+    
+}
+
+function changeString() {
+    
+}
+
+// Call
+printTime();
